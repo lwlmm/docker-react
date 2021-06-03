@@ -19,6 +19,7 @@ deploy:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
+  wait_until_deployed: true
 
 
 
